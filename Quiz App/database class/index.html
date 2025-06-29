@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    name:
+    <input type="text" id="name" placeholder="enter name">
+    roll no:
+    <input type="text" id="roll" placeholder="enter roll no">
+
+
+    <li id="studentList"></li>
+    <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyAIiO0brywXLvWxaH3KcetdrRCVeMcO_I0",
+    authDomain: "mydata-e5ab7.firebaseapp.com",
+    databaseURL: "https://mydata-e5ab7-default-rtdb.firebaseio.com",
+    projectId: "mydata-e5ab7",
+    storageBucket: "mydata-e5ab7.firebasestorage.app",
+    messagingSenderId: "615868105015",
+    appId: "1:615868105015:web:2d62711f294961bc62dab2"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+</script>
+</body>
+<script src="app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-database.js"></script>
+</html>
